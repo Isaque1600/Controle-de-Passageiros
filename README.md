@@ -1,19 +1,29 @@
 Trabalho de Algoritmos
 
 TEMA ------------------------------------------------------------------------------
+
 Eficiência e otimização utilizando algoritmos
 
 EQUIPE ----------------------------------------------------------------------------
+
 Felipe Barbosa Soares de Souza Pereira
+
 Isaque Batista Nobrega
+
 Joel Feitosa da Silva
+
 Jose Francisco Viana Dantas
+
 Julio Cesar Morais Satyro
+
 Julio Cesar Morais de Carvalho
+
 Lucas Ferreira Siqueira Brito
+
 Raimundo Nobrega de Sousa Segundo
 
 Contextualização do Problema ------------------------------------------------------
+
 Algoritmos na computação são pequenos pedaços de código utilizados em sua
 grande maioria para resolver problemas, sendo esses problemas os mais diversos,
 indo desde um sistema simples de loja, até um complexo sistema de gerencia-
@@ -28,6 +38,7 @@ para estudar em outra, necessitam por meio de um grupo no Whatsapp colocar
 o nome em uma lista para poder pegar o transporte no outro dia.
 
 Justificativa ----------------------------------------------------------------------
+
 A dependência das listas usadas no WhatsApp para organizar o transporte
 escolar apresenta desafios significativos devido à sua falta de controle. Tanto os
 motoristas quanto os alunos precisam se manter atentos às mudanças repentinas
@@ -53,6 +64,7 @@ estudo, podendo resultar na perda de partes essenciais do conteúdo e prejudicar
 o andamento das aulas.
 
 Solução Proposta ---------------------------------------------------------------------
+
 Para solucionar este problema pensamos em realizar um programa que solicitasse
 o nome do estudante, a sua instituição e o horário que ele iria e o da volta,
 respeitando também os horários do ônibus (6h, 12h, 18h e 22h), otimizando
