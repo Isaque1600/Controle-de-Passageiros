@@ -20,6 +20,8 @@ Julio Cesar Morais de Carvalho
 
 Lucas Ferreira Siqueira Brito
 
+Marcos Gustavo de Andrade Ferreira
+
 Raimundo Nobrega de Sousa Segundo
 
 Contextualização do Problema ------------------------------------------------------
