@@ -62,16 +62,16 @@ while log.tipo_usuario != 0:
                 log.tipo_usuario = -1
 
             elif log.op_principal == 1:
-                m.consultar_quantidade_passageiros()
+                m.check_quantidade_passageiros()
 
             elif log.op_principal == 2:
-                m.consultar_quantidade_passageiros_instituicao()
+                m.check_quantidade_passageiros_instituicao()
 
             elif log.op_principal == 3:
-                m.consultar_horarios()
+                m.check_horarios()
 
             elif log.op_principal == 4:
-                m.consultar_paradas()
+                m.check_paradas()
 
     if log.tipo_usuario == 3:
 

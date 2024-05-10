@@ -1,3 +1,7 @@
+import passageiros
+import horarios
+import paradas
+
 # Funções da parte dos motoristas
 
 global motoristas
@@ -23,3 +27,21 @@ def senha_check(senha):
             return True
 
     return False
+
+
+def check_horarios():
+    print(f"Segue os Horários: \n {horarios}")
+
+
+def check_paradas():
+    print(f"Segue as Paradas: \n {paradas} ")
+
+
+def check_quantidade_passageiros():
+    print(f"Segue a quantidade total de passageiros: \n {len(passageiros.passageiros)}")
+
+
+def check_quantidade_passageiros_instituicao():
+    print(
+        f"Segue a Quantidade de Passageiros por Instituição: \n {passageiros.passageiros_por_instituicao}"
+    )
