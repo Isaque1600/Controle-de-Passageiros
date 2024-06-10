@@ -80,17 +80,22 @@ while log.tipo_usuario != 0:
             if tentativas == 3:
                 print("Tentativas esgotadas, tente novamente mais tarde!")
                 log.tipo_usuario = -1
+                tentativas = 0
+                continue
 
             login = input("Login: ")
             senha = input("Senha: ")
 
             if log.login(login, senha):
+                tentativas = 0
                 print("Logging...")
                 time.sleep(2)
                 print(f"Seja bem vindo {login}!")
                 time.sleep(1)
             else:
+                tentativas += 1
                 print("Login ou senha incorretos, tente novamente!")
+                print(f"{3-tentativas} restantes")
                 time.sleep(2)
 
     if log.tipo_usuario == 3:
@@ -145,17 +150,22 @@ while log.tipo_usuario != 0:
             if tentativas == 3:
                 print("Tentativas esgotadas, tente novamente mais tarde!")
                 log.tipo_usuario = -1
+                tentativas = 0
+                continue
 
             login = input("Login: ")
             senha = input("Senha: ")
 
             if log.login(login, senha):
+                tentativas = 0
                 print("Logging...")
                 time.sleep(2)
                 print(f"Seja bem vindo {login}!")
                 time.sleep(1)
             else:
+                tentativas += 1
                 print("Login ou senha incorretos, tente novamente!")
+                print(f"{3-tentativas} restantes")
                 time.sleep(2)
 
     if log.tipo_usuario not in [1, 2, 3]:
